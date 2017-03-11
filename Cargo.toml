@@ -1,0 +1,11 @@
+[package]
+name = "console"
+version = "0.1.0"
+authors = ["Godhuda <engineering+godhuda@tilde.io>"]
+
+[lib]
+
+crate-type = ["cdylib"]
+
+[dependencies.helix]
+git = "https://github.com/tildeio/helix.git"
